@@ -1,0 +1,82 @@
+.d-block {
+  display: block;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+
+  &-row {
+    flex-direction: row;
+  }
+
+  &-column {
+    flex-direction: column;
+  }
+
+  &-wrap {
+    flex-wrap: wrap;
+  }
+}
+
+.d-flex-center {
+  align-content: center;
+}
+
+.d-flex-start {
+  align-content: start;
+}
+
+.d-flex-end {
+  align-content: end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-normal {
+  justify-content: normal;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+@mixin router-outlet-page {
+  display: block;
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-sticky {
+  position: sticky;
+}

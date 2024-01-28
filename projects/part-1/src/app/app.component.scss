@@ -1,0 +1,16 @@
+@import "../styles/display";
+@import "../styles/size";
+@import "../styles/text";
+
+:host {
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.app-body {
+  display: block;
+  width: 900px;
+  height: 100%;
+}

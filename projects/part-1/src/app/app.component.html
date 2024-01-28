@@ -1,0 +1,31 @@
+<div class="d-flex d-flex-column justify-center align-center w-100">
+    <div class="app-body w-100">
+        <div class="d-block pt-3 pb-3">
+            Самый обычный компонент
+        </div>
+        <div class="d-block w-100 h-100">
+            <app-test-filter-1 title="Title"></app-test-filter-1>
+        </div>
+
+
+        <div class="d-block pt-5  pb-3">
+            Компонент ng-content
+        </div>
+        <div class="d-block w-100 h-100">
+            <app-test-filter-2>
+                <mat-label>
+                    <div class="d-block text-muted display-6">
+                        Вот тут просто текст
+                    </div>
+                </mat-label>
+            </app-test-filter-2>
+        </div>
+        <div class="d-block w-100 h-100 pt-5">
+            <app-test-filter-2>
+                <mat-label>
+                    <button mat-raised-button color="primary"><mat-icon>add</mat-icon> А вот тут кнопка</button>
+                </mat-label>
+            </app-test-filter-2>
+        </div>
+    </div>
+</div>
