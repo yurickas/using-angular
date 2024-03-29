@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start:part1": "ng serve part-1 -o"
+    "start:part1": "ng serve part-1 -o",
+    "start:part2": "ng serve part-2 -o"
   },
   "private": true,
   "dependencies": {
@@ -17,6 +18,7 @@
     "@angular/platform-browser-dynamic": "^17.1.0",
     "@angular/router": "^17.1.0",
     "@ngrx/store": "^17.1.0",
+    "@ngrx/component-store": "^17.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
